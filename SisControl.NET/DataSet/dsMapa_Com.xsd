@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMapa_Com" targetNamespace="http://tempuri.org/dsMapa_Com.xsd" xmlns:mstns="http://tempuri.org/dsMapa_Com.xsd" xmlns="http://tempuri.org/dsMapa_Com.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMapa_Com" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsMapa_Com" msprop:Generator_UserDSName="dsMapa_Com">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtComercializacao" msprop:Generator_TableClassName="dtComercializacaoDataTable" msprop:Generator_TableVarName="tabledtComercializacao" msprop:Generator_TablePropName="dtComercializacao" msprop:Generator_RowDeletingName="dtComercializacaoRowDeleting" msprop:Generator_RowChangingName="dtComercializacaoRowChanging" msprop:Generator_RowEvHandlerName="dtComercializacaoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtComercializacaoRowDeleted" msprop:Generator_UserTableName="dtComercializacao" msprop:Generator_RowChangedName="dtComercializacaoRowChanged" msprop:Generator_RowEvArgName="dtComercializacaoRowChangeEvent" msprop:Generator_RowClassName="dtComercializacaoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RNC" msprop:Generator_ColumnVarNameInTable="columnRNC" msprop:Generator_ColumnPropNameInRow="RNC" msprop:Generator_ColumnPropNameInTable="RNCColumn" msprop:Generator_UserColumnName="RNC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Especie" msprop:Generator_ColumnVarNameInTable="columnEspecie" msprop:Generator_ColumnPropNameInRow="Especie" msprop:Generator_ColumnPropNameInTable="EspecieColumn" msprop:Generator_UserColumnName="Especie" type="xs:string" minOccurs="0" />
+              <xs:element name="Cultivar" msprop:Generator_ColumnVarNameInTable="columnCultivar" msprop:Generator_ColumnPropNameInRow="Cultivar" msprop:Generator_ColumnPropNameInTable="CultivarColumn" msprop:Generator_UserColumnName="Cultivar" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" default="Muda in vitro" minOccurs="0" />
+              <xs:element name="Classe" msprop:Generator_ColumnVarNameInTable="columnClasse" msprop:Generator_ColumnPropNameInRow="Classe" msprop:Generator_ColumnPropNameInTable="ClasseColumn" msprop:Generator_UserColumnName="Classe" type="xs:string" minOccurs="0" />
+              <xs:element name="Prevista" msprop:Generator_ColumnVarNameInTable="columnPrevista" msprop:Generator_ColumnPropNameInRow="Prevista" msprop:Generator_ColumnPropNameInTable="PrevistaColumn" msprop:Generator_UserColumnName="Prevista" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Aprovada" msprop:Generator_ColumnVarNameInTable="columnAprovada" msprop:Generator_ColumnPropNameInRow="Aprovada" msprop:Generator_ColumnPropNameInTable="AprovadaColumn" msprop:Generator_UserColumnName="Aprovada" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ComUF" msprop:Generator_ColumnVarNameInTable="columnComUF" msprop:Generator_ColumnPropNameInRow="ComUF" msprop:Generator_ColumnPropNameInTable="ComUFColumn" msprop:Generator_UserColumnName="ComUF" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ComFora" msprop:Generator_ColumnVarNameInTable="columnComFora" msprop:Generator_ColumnPropNameInRow="ComFora" msprop:Generator_ColumnPropNameInTable="ComForaColumn" msprop:Generator_UserColumnName="ComFora" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ComExpo" msprop:Generator_ColumnVarNameInTable="columnComExpo" msprop:Generator_ColumnPropNameInRow="ComExpo" msprop:Generator_ColumnPropNameInTable="ComExpoColumn" msprop:Generator_UserColumnName="ComExpo" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Uso" msprop:Generator_ColumnVarNameInTable="columnUso" msprop:Generator_ColumnPropNameInRow="Uso" msprop:Generator_ColumnPropNameInTable="UsoColumn" msprop:Generator_UserColumnName="Uso" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Descarte" msprop:Generator_ColumnVarNameInTable="columnDescarte" msprop:Generator_ColumnPropNameInRow="Descarte" msprop:Generator_ColumnPropNameInTable="DescarteColumn" msprop:Generator_UserColumnName="Descarte" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Terceiros" msprop:Generator_ColumnVarNameInTable="columnTerceiros" msprop:Generator_ColumnPropNameInRow="Terceiros" msprop:Generator_ColumnPropNameInTable="TerceirosColumn" msprop:Generator_UserColumnName="Terceiros" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" msprop:Generator_UserColumnName="Saldo" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ComForaResumo" msprop:Generator_ColumnVarNameInTable="columnComForaResumo" msprop:Generator_ColumnPropNameInRow="ComForaResumo" msprop:Generator_ColumnPropNameInTable="ComForaResumoColumn" msprop:Generator_UserColumnName="ComForaResumo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

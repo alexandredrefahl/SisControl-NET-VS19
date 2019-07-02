@@ -1,0 +1,107 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="MyUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">alexandre</Value>
+    </Setting>
+    <Setting Name="MyServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.1.1.254</Value>
+    </Setting>
+    <Setting Name="MyDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Controle</Value>
+    </Setting>
+    <Setting Name="MyPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@drf1624</Value>
+    </Setting>
+    <Setting Name="MyPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3306</Value>
+    </Setting>
+    <Setting Name="MyRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=clona-gen.com.br;user id=clonagen_remoto;password=16240423;database=clonagen_clonagen&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</Value>
+    </Setting>
+    <Setting Name="MyPrintPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM4</Value>
+    </Setting>
+    <Setting Name="MyTemp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="ShowSchl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NumNFE" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="Aliquota" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.25</Value>
+    </Setting>
+    <Setting Name="PastaNFe" Type="System.String" Scope="User">
+      <Value Profile="(Default)">m:\NFe</Value>
+    </Setting>
+    <Setting Name="CaminhoUNIDNF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\servidor\SISTEMAS\UniNFe\UniDANFe\unidanfe.exe</Value>
+    </Setting>
+    <Setting Name="NFeSerie" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="NFeAmbiente" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="NFeEmailContador" Type="System.String" Scope="User">
+      <Value Profile="(Default)">alyne@mazzolli.com.br</Value>
+    </Setting>
+    <Setting Name="MySMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mail.clona-gen.com.br</Value>
+    </Setting>
+    <Setting Name="MyMailUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">comercial+clona-gen.com.br</Value>
+    </Setting>
+    <Setting Name="MyMailPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">16240423</Value>
+    </Setting>
+    <Setting Name="CaminhoZIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\WinZip\winzip32.exe</Value>
+    </Setting>
+    <Setting Name="controleConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;persistsecurityinfo=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;persistsecurityinfo=True</Value>
+    </Setting>
+    <Setting Name="MyBaud" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">19200</Value>
+    </Setting>
+    <Setting Name="NFeHoraVerao" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="controleConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;port=3306;persistsecurityinfo=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;port=3306;persistsecurityinfo=True</Value>
+    </Setting>
+    <Setting Name="controleConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;port=3306;persistsecurityinfo=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=10.1.1.254;user id=alexandre;password=@drf1624;database=controle;port=3306;persistsecurityinfo=True</Value>
+    </Setting>
+    <Setting Name="csControle" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=10.1.1.254;user id=alexandre;password=@drf1624;persistsecurityinfo=True;database=controle&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=10.1.1.254;user id=alexandre;password=@drf1624;persistsecurityinfo=True;database=controle</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

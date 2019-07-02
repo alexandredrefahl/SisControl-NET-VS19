@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInventario" targetNamespace="http://tempuri.org/dsInventario.xsd" xmlns:mstns="http://tempuri.org/dsInventario.xsd" xmlns="http://tempuri.org/dsInventario.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInventario" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsInventario" msprop:Generator_UserDSName="dsInventario">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLotes" msprop:Generator_TableClassName="dtLotesDataTable" msprop:Generator_TableVarName="tabledtLotes" msprop:Generator_TablePropName="dtLotes" msprop:Generator_RowDeletingName="dtLotesRowDeleting" msprop:Generator_RowChangingName="dtLotesRowChanging" msprop:Generator_RowEvHandlerName="dtLotesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLotesRowDeleted" msprop:Generator_UserTableName="dtLotes" msprop:Generator_RowChangedName="dtLotesRowChanged" msprop:Generator_RowEvArgName="dtLotesRowChangeEvent" msprop:Generator_RowClassName="dtLotesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="colID" msdata:Caption="ID" msprop:Generator_ColumnVarNameInTable="columncolID" msprop:Generator_ColumnPropNameInRow="colID" msprop:Generator_ColumnPropNameInTable="colIDColumn" msprop:Generator_UserColumnName="colID" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="colCodigo" msdata:Caption="Código" msprop:Generator_ColumnVarNameInTable="columncolCodigo" msprop:Generator_ColumnPropNameInRow="colCodigo" msprop:Generator_ColumnPropNameInTable="colCodigoColumn" msprop:Generator_UserColumnName="colCodigo" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="colMds_Frasco" msdata:Caption="Mds/Frasco" msprop:Generator_ColumnVarNameInTable="columncolMds_Frasco" msprop:Generator_ColumnPropNameInRow="colMds_Frasco" msprop:Generator_ColumnPropNameInTable="colMds_FrascoColumn" msprop:Generator_UserColumnName="colMds_Frasco" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="colEstoque" msdata:Caption="Estoque" msprop:Generator_ColumnVarNameInTable="columncolEstoque" msprop:Generator_ColumnPropNameInRow="colEstoque" msprop:Generator_ColumnPropNameInTable="colEstoqueColumn" msprop:Generator_UserColumnName="colEstoque" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="colMercadoria" msdata:Caption="Mercadoria" msprop:Generator_ColumnVarNameInTable="columncolMercadoria" msprop:Generator_ColumnPropNameInRow="colMercadoria" msprop:Generator_ColumnPropNameInTable="colMercadoriaColumn" msprop:Generator_UserColumnName="colMercadoria" type="xs:short" default="0" minOccurs="0" />
+              <xs:element name="colLote" msdata:Caption="Lote" msprop:Generator_ColumnVarNameInTable="columncolLote" msprop:Generator_ColumnPropNameInRow="colLote" msprop:Generator_ColumnPropNameInTable="colLoteColumn" msprop:Generator_UserColumnName="colLote" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="colClone" msdata:Caption="Clone" msprop:Generator_ColumnVarNameInTable="columncolClone" msprop:Generator_ColumnPropNameInRow="colClone" msprop:Generator_ColumnPropNameInTable="colCloneColumn" msprop:Generator_UserColumnName="colClone" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="colFrascos" msdata:Caption="Frascos" msprop:Generator_ColumnVarNameInTable="columncolFrascos" msprop:Generator_ColumnPropNameInRow="colFrascos" msprop:Generator_ColumnPropNameInTable="colFrascosColumn" msprop:Generator_UserColumnName="colFrascos" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

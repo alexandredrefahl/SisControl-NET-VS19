@@ -1,0 +1,94 @@
+<div style="background-image: url(http://www.clona-gen.com.br/email/status_pedido_fundo.jpg); background-repeat: repeat-x; height: 152px; width: 100%;"><img alt="" src="http://www.clona-gen.com.br/email/status_pedido_4.jpg" style="width: 551px; height: 152px; float: left;" /></div>
+
+<div style="font-family: arial, sans-serif;background:#eee;border:1px solid #ccc;padding:5px 10px;"><strong>PEDIDO N&ordm; [numPedido]</strong></div>
+
+<p style="font-family: arial, sans-serif;font-size: 12.8px;"><strong>Caro(a) [cliente]</strong>.</p>
+
+<p style="font-family: arial, sans-serif;font-size: 12.8px;">Obrigado por sua compra.&nbsp;O Pedido&nbsp;n&ordm; <strong>[numPedido]</strong>&nbsp;foi gerado em nosso sistema e uma c&oacute;pia est&aacute; sendo enviada ao senhor por meio desde e-mail. O seu pedido em <strong>[data]</strong>&nbsp;j&aacute; foi iniciado e ser&aacute; processado em breve.</p>
+
+<div style="font-family: arial, sans-serif;background:#eee;border:1px solid #ccc;padding:5px 10px;"><strong>DADOS DO CLIENTE</strong></div>
+
+<div style="margin-top:15px;margin-bottom:15px;">
+<table align="center" border="1px" cellpadding="2px" cellspacing="0px" style="border-collapse: collapse;border:1px solid #ccc; font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;" width="100%">
+	<tbody>
+		<tr height="14">
+			<td style="margin: 0px; width:11%;background:#eee;">C&oacute;digo:</td>
+			<td style="margin: 0px; width:22%;">[codigo]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">R. Social:</td>
+			<td style="margin: 0px; width:22%;">[cliente]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">CPF/CNPJ:</td>
+			<td style="margin: 0px; width:22%;">[cpf_cnpj]</td>
+		</tr>
+		<tr height="14">
+			<td style="margin: 0px; width:11%;background:#eee;">Endere&ccedil;o:</td>
+			<td style="margin: 0px; width:22%;">[endereco]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">Municipio:</td>
+			<td style="margin: 0px; width:22%;">[cidade]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">Estado:</td>
+			<td style="margin: 0px; width:22%;">[estado]</td>
+		</tr>
+		<tr height="14">
+			<td style="margin: 0px; width:11%;background:#eee;">Contato:</td>
+			<td style="margin: 0px; width:22%;">[contato]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">E-mail:</td>
+			<td style="margin: 0px; width:22%;">[email]</td>
+			<td style="margin: 0px; width:11%;background:#eee;">Telefone:</td>
+			<td style="margin: 0px; width:22%;">[fone]</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><strong>DADOS DOS PRODUTOS</strong>&nbsp;</div>
+
+<div style="margin-top:15px;margin-bottom:15px;">
+<table align="center" border="1px" cellpadding="2px" cellspacing="0px" style="border-collapse: collapse;border:1px solid #ccc; font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;" width="100%">
+	<tbody>
+		<tr>
+			<th scope="col" width="9%" style="background:#eee;">C&oacute;d</th>
+			<th scope="col" width="50%" style="background:#eee;">Descri&ccedil;&atilde;o</th>
+			<th scope="col" width="11%" style="background:#eee;">NCM</th>
+			<th scope="col" width="10%" style="background:#eee;">Qtde</th>
+			<th scope="col" width="10%" style="background:#eee;">Unit&aacute;rio</th>
+			<th scope="col" width="10%" style="background:#eee;">Total</th>
+		</tr>
+		[linha_produtos]
+	</tbody>
+</table>
+</div>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><strong>RESUMO DO PEDIDO</strong>&nbsp;</div>
+
+<div style="margin-top:15px;margin-bottom:15px">
+<table align="center" border="1px" cellpadding="2px" cellspacing="0px" style="border-collapse: collapse;border:1px solid #ccc; font-family: arial, sans-serif; font-size: 12.8px; line-height: normal;" width="100%">
+	<tbody>
+		<tr>
+			<td style="margin: 0px;background:#eee;" width="19%">Data do pedido</td>
+			<td style="margin: 0px;" width="31%">[data]</td>
+			<td style="margin: 0px;background:#eee;" width="19%">Descontos (-)</td>
+			<td style="margin: 0px;" width="31%">[desconto]</td>
+		</tr>
+		<tr>
+			<td style="margin: 0px;background:#eee;">Num de Mudas</td>
+			<td style="margin: 0px;">[numMudas]</td>
+			<td style="margin: 0px;background:#eee;">Frete (+)</td>
+			<td style="margin: 0px;">[frete] *</td>
+		</tr>
+		<tr>
+			<td style="margin: 0px;background:#eee;">Total de mercadorias (+)</td>
+			<td style="margin: 0px;">[totalMerc]</td>
+			<td style="margin: 0px;background:#eee;">Valor do pedido</td>
+			<td style="margin: 0px;">[totalPed]</td>
+		</tr>
+	</tbody>
+</table>
+<small>* Valor do frete estimado podendo variar com o peso e cota&ccedil;&atilde;o no momento do embarque.</small></div>
+
+<div style="font-family: arial, sans-serif;background:#eee;border:1px solid #ccc;padding:5px 10px;"><span style="font:Arial;"><strong>CONTATOS &Uacute;TEIS</strong>&nbsp;</span></div>
+
+<p><span style="font-family: arial, sans-serif;font-size: 12.8px;"><strong>Por e-mail:</strong> comercial@clona-gen.com.br<br />
+<strong>Por telefone:</strong> (47) 3439-6607</span></p>
+
+<p><span style="font-family: arial, sans-serif;font-size: 12.8px;">Atenciosamente</span></p>
+
+<p><span style="font-family: arial, sans-serif;font-size: 12.8px;">&nbsp; &nbsp;Equipe <span style="color:#FF8C00;"><strong>CLONA-GEN</strong></span></span></p>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFrascos_Aux" targetNamespace="http://tempuri.org/dsFrascos_Aux.xsd" xmlns:mstns="http://tempuri.org/dsFrascos_Aux.xsd" xmlns="http://tempuri.org/dsFrascos_Aux.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="csControle" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="csControle (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SisControl.NET.My.MySettings.GlobalReference.Default.csControle" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aux_frascosTableAdapter" GeneratorDataComponentClassName="aux_frascosTableAdapter" Name="aux_frascos" UserDataComponentName="aux_frascosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="csControle (MySettings)" DbObjectName="controle.aux_frascos" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, Lote, Vidro, NMudas, Impresso, Selecao, Variedade, Clone, Origem, Repicador, Meio, Data, frTipo, Explante, Dias, Criacao, bxMotivo, bxExclusao, bxOperador FROM aux_frascos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFrascos_Aux" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsFrascos_Aux" msprop:Generator_UserDSName="dsFrascos_Aux">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aux_frascos" msprop:Generator_TableClassName="aux_frascosDataTable" msprop:Generator_TableVarName="tableaux_frascos" msprop:Generator_TablePropName="aux_frascos" msprop:Generator_RowDeletingName="aux_frascosRowDeleting" msprop:Generator_RowChangingName="aux_frascosRowChanging" msprop:Generator_RowEvHandlerName="aux_frascosRowChangeEventHandler" msprop:Generator_RowDeletedName="aux_frascosRowDeleted" msprop:Generator_UserTableName="aux_frascos" msprop:Generator_RowChangedName="aux_frascosRowChanged" msprop:Generator_RowEvArgName="aux_frascosRowChangeEvent" msprop:Generator_RowClassName="aux_frascosRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
