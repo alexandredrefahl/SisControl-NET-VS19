@@ -1,6 +1,58 @@
 # SysControl - Complete Management Software for Lab Control
 
-Complete software for managing production processes and production planning for Plant Biotechnologi, developed, implemented and updated over more than 10 years (started in 2006 in Access MDB...), at Clona-Gen Vegetal Biotechnology. Developed in VB.NET, C#, and more recently, modules in PyQt with the same MySQL database. It covers the areas ranging from customer records, production inputs, chemical products, etc... in addition to production orders, various reports, order routines, commercial, financial, HR, invoice, specific reports for the Ministry of Agriculture.
+Complete software for managing production processes and production planning for Plant Biotechnologi, developed, implemented and updated over more than 10 years (started in 2006 in Access MDB...), at Clona-Gen Vegetal Biotechnology. 
+
+Developed in VB.NET, C#, and more recently, modules in PyQt5 with the same MySQL database. 
+
+### 1. Financial Management
+* General Ledger
+* Accounts Payable
+* Accounts Receivable
+* Financial Reporting
+
+### 2. Human Resources Management:
+* Employee Information
+* Payroll
+* Time and Attendance
+
+### 3. Supply Chain Management:
+* Procurement
+* Inventory Management
+* Supplier Relationship Management
+
+### 4. Manufacturing/Production:
+* Bill of Materials (BOM)
+* Work Order Management
+* Control of Production Batches
+* Quality Control (Contamination/Losses)
+* Picker/Teams performance
+
+### 5. Customer Relationship Management (CRM):
+* Sales
+* Customer Service
+* Contact Management
+
+### 6. Project Management:
+* Project Planning
+* Resource Allocation
+* Task Management
+* Project Tracking and Reporting
+
+### 7. Business Intelligence and Reporting:
+* Data Analysis
+* Dashboards (in Excel)
+* Reporting Tools (many information about overall performance)
+
+### 8. E-commerce and Online Sales:
+* Online Ordering
+* E-commerce Integration
+
+### 9. Data Security:
+* User Access Controls and permission levels by role
+
+### 10. Customer and Vendor Management:
+* Customer and Vendor Information
+* Communication History
 
 Technologies used: VB.NET, MySQL, Python, Linux.
 
@@ -8,7 +60,7 @@ Technologies used: VB.NET, MySQL, Python, Linux.
 
 ![image](https://github.com/alexandredrefahl/SisControl-NET-VS19/assets/24326296/e6154726-b0be-44ea-9e8d-59481b7a3e8d)
 
-### Production
+### Manufacturing/Production
 
 Input of flask batches. This is the main screen of production module, where the user inputs all information of the batches of plants produced.
 
@@ -40,7 +92,7 @@ Invoice registration
 **OBS:** _The system for emiting Brasilian Federal Invoice (NFe) was coded from scratch reading the Brasilian IRS manuals_
 
 
-### ORDERS
+### Customer Relationship Management
 
 Orders management
 
@@ -50,7 +102,7 @@ Orders registration
 
 ![image](https://github.com/alexandredrefahl/SisControl-NET-VS19/assets/24326296/b0354303-6af2-4f20-9540-97e6e26c32cc)
 
-## REPORTS
+## Reports
 
 Reports menu
 
